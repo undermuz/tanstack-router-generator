@@ -27,7 +27,11 @@ It installs required dependencies, generates routing structure, and configures a
 Run the generator inside your React project:
 
 ```sh
-npx @undermuz/tanstack-router-generator
+# Simple react project
+npx @undermuz/tanstack-router-generator@latest init
+
+# NX-like project
+npx @undermuz/tanstack-router-generator@latest init --project=./apps/web-app/src/app
 ```
 
 By default, it installs routing files into:
