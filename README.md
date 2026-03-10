@@ -3,6 +3,9 @@
 A lightweight CLI tool that automatically sets up **TanStack Router** in any React or Nx-based project.
 It installs required dependencies, generates routing structure, and configures a ready-to-use router setup.
 
+[![npm](https://img.shields.io/npm/v/@undermuz/tanstack-router-generator.svg)](https://www.npmjs.com/package/@undermuz/tanstack-router-generator)
+[![GitHub](https://img.shields.io/badge/GitHub-undermuz%2Ftanstack--router--generator-blue)](https://github.com/undermuz/tanstack-router-generator)
+
 ---
 
 ## 🚀 Features
