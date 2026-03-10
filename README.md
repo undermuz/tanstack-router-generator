@@ -141,6 +141,32 @@ tanstack-router-generator
 
 ---
 
+## 🧪 Testing
+
+```sh
+npm test
+```
+
+Runs unit tests with [Vitest](https://vitest.dev). Tests cover:
+
+- **copyFiles** — copying templates without overwriting existing files
+- **updatePackageJson** — adding TanStack Router dependencies to `package.json`
+- **addRoute** — route creation, name normalization, `index.tsx` updates, and error validation
+
+Watch mode (re-run on file changes):
+
+```sh
+npm run test:watch
+```
+
+Coverage report:
+
+```sh
+npm run test:coverage
+```
+
+---
+
 ## 📄 License
 
 MIT
